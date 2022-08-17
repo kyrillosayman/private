@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background: linear-gradient(70deg, red , white);
+    min-height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container{
+    background-color: #00000010;
+    text-align: center;
+}
+.top img{
+    width: 120px;
+    border-radius: 100%;
+    margin-top: 50px;
+    border: #999 2px solid;
+    box-shadow: 0 0 20px #fff;
+}
+.top h3{
+    color: #fff;
+    margin: 25px;
+    text-shadow: 0 0 5px #000;
+    text-transform: capitalize;
+}
+.nav_link{
+    background-color: rgba(0, 0, 0, 0.10);
+    /* padding: 30px; */
+    height: 60px;
+    margin: 15px;
+    margin-left: 20px;
+
+}
+.nav_link i[class="fa fa-facebook"]{
+    background-color: #fff;
+    padding: 15px 20px;
+    color: rgb(18, 0, 89);
+    position:absolute;
+    left: 5px;
+    font-size: 30px;
+    transition: all 0.8s;
+}
+.nav_link i[class="fa fa-whatsapp"]{
+    background-color: #fff;
+    padding: 15px;
+    color: green;
+    position:absolute;
+    left: 5px;
+    font-size: 30px;
+    transition: all 0.8s;
+}
+.nav_link i[class="fa fa-instagram"]{
+    background-color: #fff;
+    padding: 15px;
+    color: purple;
+    position:absolute;
+    left: 5px;
+    font-size: 30px;
+    transition: all 0.8s;
+}
+.nav_link i[class="fa fa-twitter"]{
+    background-color: #fff;
+    padding: 15px;
+    color: #00c3ff;
+    position:absolute;
+    left: 5px;
+    font-size: 30px;
+    transition: all 0.8s;
+}
+.nav_link  i[class="fa fa-facebook"]:hover{
+   background-color: darkblue;
+   color: #fff;
+}
+.nav_link  i[class="fa fa-whatsapp"]:hover{
+    background-color: green;
+    color: #fff;
+ }
+ .nav_link  i[class="fa fa-instagram"]:hover{
+    background-color: purple;
+    color: #fff;
+ }
+ .nav_link  i[class="fa fa-twitter"]:hover{
+    background-color: #00c3ff;
+    color: #fff;
+ }
+
+ .link a{
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow: 0 0 5px #000;
+ }
+.link p{
+    padding: 18px;
+    font-size: 18px;
+    text-transform: capitalize;
+    transition: all 0.5s;
+}
+.link p:hover{
+    font-size: 22px;
+}
